@@ -24,6 +24,24 @@ Run this command in your terminal:
 claude mcp add --transport http osint-mcp https://mcp.osintmcp.com
 ```
 
+### For Cursor
+
+Add this to your `.cursor/mcp.json` (project-specific) or `~/.cursor/mcp.json` (global):
+
+```json
+{
+  "mcpServers": {
+    "osint-mcp": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.osintmcp.com"
+      ]
+    }
+  }
+}
+```
+
 ### For other MCP clients
 
 Connect to: **https://mcp.osintmcp.com**
