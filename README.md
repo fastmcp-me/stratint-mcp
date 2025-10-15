@@ -21,7 +21,7 @@ osint-mcp provides real-time access to global security events and threat intelli
 Run this command in your terminal:
 
 ```bash
-claude mcp add --transport http osint-mcp https://mcp.osintmcp.com
+claude mcp add --transport http osint-mcp https://mcp.osintmcp.com/mcp
 ```
 
 ### For Cursor
