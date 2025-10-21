@@ -1,27 +1,15 @@
-# osint-mcp
+# STRATINT MCP
 
-Real-time OSINT intelligence platform for global security monitoring.
+Strategic intelligence platform that transforms real-time signals from global markets, geopolitics, and conflicts into AI-powered forecasts and actionable strategies. Track events, predict outcomes, and develop informed strategies.
 
-**This repository is for discovery only.**
-
-## What is osint-mcp?
-
-osint-mcp provides real-time access to global security events and threat intelligence through an always-on MCP server. No setup, no API keys, no configuration files - just connect and start querying the latest security intelligence.
-
-**Why osint-mcp?**
-- 🌍 **Real-time global coverage** - Monitor security events as they happen worldwide
-- 🔍 **Powerful search** - Query across millions of OSINT data points instantly
-- 🚀 **Zero setup** - Remote HTTP MCP server means no local installation required
-- 🔒 **Always available** - Hosted infrastructure, no maintenance on your end
-
-## Connecting to osint-mcp
+## Connecting
 
 ### For Claude Code
 
 Run this command in your terminal:
 
 ```bash
-claude mcp add --transport http osint-mcp https://mcp.osintmcp.com/mcp
+claude mcp add --transport http stratint-mcp https://mcp.stratint.ai/mcp
 ```
 
 ### For Cursor
@@ -31,11 +19,11 @@ Add this to your `.cursor/mcp.json` (project-specific) or `~/.cursor/mcp.json` (
 ```json
 {
   "mcpServers": {
-    "osint-mcp": {
+    "stratint-mcp": {
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://mcp.osintmcp.com"
+        "https://mcp.stratint.ai"
       ]
     }
   }
@@ -44,11 +32,11 @@ Add this to your `.cursor/mcp.json` (project-specific) or `~/.cursor/mcp.json` (
 
 ### For other MCP clients
 
-Connect to: **https://mcp.osintmcp.com**
+Connect to: **https://mcp.stratint.ai**
 
 ## Learn More
 
-Visit [https://osintmcp.com](https://osintmcp.com) for detailed documentation and examples.
+Visit [https://stratint.ai](https://stratint.ai) for detailed documentation and examples.
 
 ## License
 
